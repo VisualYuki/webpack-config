@@ -1,0 +1,2 @@
+-  настроить hucky & lint-staged
+-

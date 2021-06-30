@@ -1,0 +1,15 @@
+{
+	"preset": "ts-jest",
+	"testEnvironment": "jsdom",
+	"coverageDirectory": "./coverage",
+	"coveragePathIgnorePatterns": [
+		"node_modules",
+		"src/database",
+		"src/test",
+		"src/types"
+	],
+	"testURL": "http://localhost:9090",
+
+	"globals": { "ts-jest": { "diagnostics": false } },
+	"transform": {}
+}

@@ -1,0 +1,52 @@
+.b-main-buttons {
+	&__items {
+		display: grid;
+		grid-gap: 2px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	&__item {
+		.flex(center,center);
+		height: 60px;
+
+		font-size: 20px;
+
+		cursor: pointer;
+		.tran-fast;
+
+		&:hover {
+			background: @hover-gray;
+		}
+
+		&_gray {
+			background: @light-gray;
+		}
+
+		&_white {
+			font-weight: bold;
+
+			background: white;
+		}
+
+		&_yellow {
+			background: yellow;
+
+			&:hover {
+				background: darken(yellow, 10);
+			}
+		}
+
+		&_big-font {
+			font-size: 30px;
+		}
+
+		&_hover-gray {
+			background: @hover-gray;
+		}
+
+		svg {
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
