@@ -1,6 +1,7 @@
 {
 	"devDependencies": {
 		"@types/jest": "^26.0.23",
+		"@types/jquery": "^3.5.5",
 		"@types/node": "^15.12.4",
 		"build": "^0.1.4",
 		"clean-webpack-plugin": "*",
@@ -40,8 +41,8 @@
 		"webpack-cli": "^4.6.0",
 		"webpack-dev-server": "^4.0.0-beta.0"
 	},
-	"name": "ts calculator",
-	"description": "typescript calculator (MVC)",
+	"name": "webpack-config",
+	"description": "custom webpack config for simple app",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
@@ -54,9 +55,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/VisualYuki/ts-calculator.git"
+		"url": "https://github.com/VisualYuki/webpack-config"
 	},
-	"author": "Den",
+	"author": "Moshkin Denis",
 	"license": "ISC",
 	"homepage": "",
 	"husky": {

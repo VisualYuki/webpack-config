@@ -25,7 +25,6 @@ module.exports = {
 		filename: "site-main.js",
 	},
 	devServer: {
-		port: "9090",
 		historyApiFallback: true,
 		hot: true,
 		static: true,
